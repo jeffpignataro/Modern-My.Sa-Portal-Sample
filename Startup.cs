@@ -48,7 +48,7 @@ namespace Modern_My.Sa_Portal_Sample
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
