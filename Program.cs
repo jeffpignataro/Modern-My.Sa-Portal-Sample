@@ -19,10 +19,6 @@ namespace Modern_My.Sa_Portal_Sample
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-            .UseKestrel(options =>
-            {
-                options.Listen(System.Net.IPAddress.Loopback, 5080);
-            })
             .UseStartup<Startup>();
     }
 }

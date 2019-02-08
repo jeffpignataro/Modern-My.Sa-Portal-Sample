@@ -3,7 +3,6 @@
 
 // Write your JavaScript code.
 $(function() {
-    // Define a new component called button-counter
     Vue.component('icon-object', {
         props: ['title', 'icon', 'body'],
         template: '' +
